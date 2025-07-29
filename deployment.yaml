@@ -18,7 +18,7 @@ spec:
         - name: docker-pull-secret
       containers:
         - name: todo-app-node
-          image: edwardmaged/fortstarktest:5924ea365e14aa9e3686e5f1fdd7d6d6ae3742fc
+          image: edwardmaged/fortstarktest:8ce3e6cd74736f7779b2d39bde6c059fc383a30c
           ports:
             - containerPort: 4000
           env:
